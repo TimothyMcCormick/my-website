@@ -1,0 +1,104 @@
+.home {
+  display: grid;
+  height: 100vh;
+  background-image: url("./sawtooths.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  display: grid;
+  height: 100vh;
+
+  background-color: black;
+}
+
+.portfolio {
+  display: grid;
+  height: 100vh;
+
+  background-color: white;
+}
+
+.contact-button {
+  height: 4rem;
+}
+
+.contact {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  user-select: none;
+  background-color: black;
+}
+
+.profile-img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 50em;
+}
+
+.img-style {
+  filter: grayscale(80%);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.name-font {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 6rem;
+}
+
+.position-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+.link-font {
+  font-size: 1.35rem;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card {
+  border: none;
+}
+
+.img-fluid {
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.card-info {
+  height: 100%;
+}
+
+.scroller {
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.selectable:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 500ms;
+}
+
+.brand-logo {
+  height: 4rem;
+}

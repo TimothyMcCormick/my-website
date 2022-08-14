@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066" />
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Timothy McCormick</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-sm bg-black p-2">
+      <div class="container-fluid">
+        <a href="#"><img class="brand-logo" src="./Personal Brand Logo White.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <a href="#about">
+              <p class="text-white p-2 link-font m-0 text-uppercase me-4">
+                About
+              </p>
+            </a>
+            <a href="#portfolio" to="/#portfolio">
+              <p class="text-white p-2 link-font m-0 text-uppercase me-4">
+                Portfolio
+              </p>
+            </a>
+            <a href="#contact" to="/#contact">
+              <p class="text-white p-2 link-font m-0 text-uppercase me-4">
+                Contact
+              </p>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+
+
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      </div>
+    </nav> -->
+  </header>
+
+  <main>
+    <div class="container-fluid home">
+      <div class="col-12 d-flex flex-column justify-content-center p-2">
+        <p class="name-font text-white text-center">Timothy McCormick</p>
+        <p class="position-font text-white text-uppercase text-center">software developer. lifelong learner.</p>
+        <p class="position-font text-white text-uppercase text-center">husband. father.</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <a href="#about"><button class="contact-button btn btn-light rounded-pill"><i class="mdi mdi-arrow-down"></i> Go
+            To About <i class="mdi mdi-arrow-down"></i></button>
+        </a>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container-fluid about d-flex align-items-center mb-4" id="about">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <h1 class="text-center text-white m-2 p-2 pb-5">About Me</h1>
+
+          <h5 class="text-white m-2 p-2 pt-5">I am a full stack software developer. I enjoy problem-solving and
+            creatively
+            coming
+            up
+            with solutions. I dabbled in coding, starting with Python, while at my previous job as a laser engraver and
+            loved it. I decided to go all in and leave my job for Boise Codeworks. My decision to go to Codeworks was
+            one
+            of the best decisions I have ever made. During my time there I have learned many new languages, frameworks
+            and
+            the foundations for software development. In addition, I learned the values of setting goals and how to
+            navigate through the different steps to achieve those goals and how to work in a team environment utilizing
+            Scrum/Agile Principles. I am seeking an opportunity in the exciting, ever-changing career field of Software
+            Development and looking to expand on my skills and abilities.
+          </h5>
+          <h5 class="text-white m-2 p-2">
+            I come from a background in manufacturing where I was given the opportunity to teach myself a variety of
+            different skills including CorelDraw, AutoDesk Fusion360, UltiMaker Cura (for 3D Printing), CNC Machining,
+            Plasma Cutting, and Co2 and Fiber Laser Technology. Before this I worked in construction, particularly in
+            renovation, where I learned multiple different trades and was able to put those abilities into practice on
+            my
+            own home remodel. I have always had the desire to learn new things.
+          </h5>
+          <h5 class="text-white m-2 p-2 pb-5">
+            Aside from this, I enjoy being outdoors (backpacking, camping), playing drums/guitar, snowboarding, biking,
+            dirtbiking, flying drones (FPV and LOS) and spending time with my amazing wife and four beautiful children.
+          </h5>
+
+          <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+            <a href="#portfolio" to="/#portfolio"><button class="contact-button btn btn-light rounded-pill"><i
+                  class="mdi mdi-arrow-down"></i> Go To Portfolio <i class="mdi mdi-arrow-down"></i></button></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid portfolio" id="portfolio">
+      <h1 class="text-center text-black pt-5 p-2 m-2 ">My Portfolio</h1>
+      <div class="row justify-content-around pt-5">
+        <div class="col-md-3 card port-card p-0 rounded shadow selectable" onclick="openKeepr()">
+          <img class="rounded-top img-fluid" src="./key_and_lock.jpg" alt="keeper image">
+          <div class="card-info scroller">
+            <h5 class="text-center p-2">Keepr</h5>
+            <p class="ps-4 pe-4">Keepr is a full stack photo-sharing application built out over a period of
+              a week.
+              Users can
+              add photos (keeps), see other users' photos and add them to collections (vaults). The back-end API is
+              created with C#, MySQL and Dapper as the ORM. For the front-end I utilized Vue.Js, HTML and CSS, as well
+              as a masonry layout for
+              "keeps" cards.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 card port-card p-0 rounded shadow selectable" onclick="openOnTracker()">
+
+          <img class="rounded-top img-fluid" src="./on-tracker-img.png" alt="on tracker image">
+
+          <div class="card-info scroller">
+            <h5 class="text-center p-2">On-tracker</h5>
+            <p class="ps-4 pe-4">Collaborated on a team of 5 developers practicing Scrum/Agile principles to build
+              out a full stack, project management application using Vue.JS, Node.JS, JavaScript,
+              Mapbox API, MongoDB and Auth0 for user management. Users can add a business, track active projects,
+              add/assign employees to projects,
+              create project tasks and make notes. Utilized the Mapbox API to view pins on home business location and
+              the locations of
+              all your active projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 card port-card p-0 rounded shadow selectable" onclick="openTower()"><img
+            class="rounded-top img-fluid" src="./event.jpg" alt="tower image">
+
+          <div class="card-info scroller">
+            <h5 class="text-center p-2">Tower</h5>
+            <p class="ps-4 pe-4">Full stack application designed to get users with common interests together for
+              events.
+              Built with Vue.Js for the front-end and Express, Node.js and MongoDB using Mongoose as the ORM.
+              Implemented Auth0 for account management.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <a href="#contact" to="/#contact"><button class="contact-button btn btn-light rounded-pill"><i
+              class="mdi mdi-arrow-down"></i> Go To
+            Contact <i class="mdi mdi-arrow-down"></i></button></a>
+      </div>
+    </div>
+
+
+    <div class="container-fluid about d-flex align-items-center mb-4" id="contact">
+      <div class="col-12 d-flex flex-column align-items-center">
+        <h1 class="text-center text-white m-2 p-2 pb-5">Contact Me</h1>
+
+        <h5 class="text-white m-2 p-2 pt-5">
+        </h5>
+        <h5 class="text-white m-2 p-2">
+
+        </h5>
+        <h5 class="text-white m-2 p-2 pb-5">
+
+        </h5>
+
+        <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+          <a href="#portfolio" to="/#portfolio"><button class="contact-button btn btn-light rounded-pill"><i
+                class="mdi mdi-arrow-down"></i> Go To Portfolio <i class="mdi mdi-arrow-down"></i></button></a>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
