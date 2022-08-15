@@ -1,34 +1,49 @@
 .home {
-  display: grid;
+
   height: 100vh;
   background-image: url("./sawtooths.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.about {
-  display: grid;
-  height: 100vh;
+@media all and (max-width: 1200px) {
+  .home {
 
+    height: 80vh;
+    background-image: url("./sawtooths.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.about {
+
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
   background-color: black;
+  place-content: center;
 }
 
 .portfolio {
-  display: grid;
-  height: 100vh;
 
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
   background-color: white;
 }
 
+
+
 .contact-button {
-  height: 4rem;
+  height: 3rem;
 }
 
 .contact {
-  display: grid;
+
   height: 100vh;
   place-content: center;
-  user-select: none;
+
   background-color: black;
 }
 
@@ -53,12 +68,12 @@ a:hover {
 
 .name-font {
   font-family: "Mr Dafoe", cursive;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .position-font {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .link-font {
@@ -105,4 +120,8 @@ a:link {
 
 .li-font-size {
   font-size: 32pt;
+}
+
+h6 {
+  font-size: 16pt;
 }

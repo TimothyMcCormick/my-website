@@ -19,7 +19,9 @@
 </head>
 
 <body>
-  <header id="header">
+
+
+  <main>
     <nav class="navbar navbar-expand-sm bg-black p-2">
       <div class="container-fluid">
         <a href="#"><img class="brand-logo" src="./Personal Brand Logo White.png" alt=""></a>
@@ -49,83 +51,76 @@
         </div>
       </div>
     </nav>
+    <div class="container-fluid">
+      <div class="row home">
+        <div class="col-12 d-flex flex-column justify-content-center p-2">
+          <div class="d-flex justify-content-center">
+            <img class="profile-img mb-2" src="./IMG_2191.jpg" alt="">
+          </div>
+          <p class="name-font text-white text-center mt-2">Timothy McCormick</p>
+          <p class="position-font text-white text-uppercase text-center">software developer. lifelong learner. husband.
+            father.</p>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-
-
-
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      </div>
-    </nav> -->
-  </header>
-
-  <main>
-    <div class="container-fluid home">
-      <div class="col-12 d-flex flex-column justify-content-center p-2">
-        <div class="d-flex justify-content-center">
-          <img class="profile-img mb-4" src="./IMG_2191.jpg" alt="">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <a href="#about"><button class="contact-button btn btn-light rounded-pill">Go
+                To About</button>
+            </a>
+          </div>
         </div>
-        <p class="name-font text-white text-center mt-4">Timothy McCormick</p>
-        <p class="position-font text-white text-uppercase text-center">software developer. lifelong learner.</p>
-        <p class="position-font text-white text-uppercase text-center">husband. father.</p>
       </div>
-      <div class="col-12 d-flex justify-content-center align-items-center">
-        <a href="#about"><button class="contact-button btn btn-light rounded-pill">Go
-            To About</button>
-        </a>
-      </div>
-    </div>
 
-    <section id="about">
-      <div class="container-fluid about d-flex align-items-center mb-4" id="about">
-        <div class="col-12 d-flex flex-column align-items-center">
-          <h1 class="text-center text-white m-2 p-2 pb-5">About Me</h1>
 
-          <h5 class="text-white m-2 p-2 pt-5">I am a full stack software developer. I enjoy problem-solving and
+
+
+      <div class="row about align-items-center" id="about">
+        <div class="col-md-10">
+          <h1 class="text-center text-white m-2 p-2 pb-2">About Me</h1>
+        </div>
+        <div class="col-md-10">
+          <h6 class="text-white m-2 p-2 pt-5">I am a full stack software developer. I enjoy problem-solving and
             creatively
             coming
             up
             with solutions. I dabbled in coding, starting with Python, while at my previous job as a laser engraver and
-            loved it. I decided to go all in and leave my job for Boise Codeworks. My decision to go to Codeworks was
-            one
-            of the best decisions I have ever made. During my time there I have learned many new languages, frameworks
+            loved it. I decided to go all in and leave my job for Boise Codeworks. During my time there I have learned
+            many new languages, frameworks
             and
             the foundations for software development. In addition, I learned the values of setting goals and how to
             navigate through the different steps to achieve those goals and how to work in a team environment utilizing
-            Scrum/Agile Principles. I am seeking an opportunity in the exciting, ever-changing career field of Software
-            Development and looking to expand on my skills and abilities.
-          </h5>
-          <h5 class="text-white m-2 p-2">
+            Scrum/Agile Principles.
+          </h6>
+        </div>
+        <div class="col-md-10">
+          <h6 class="text-white m-2 p-2">
             I come from a background in manufacturing where I was given the opportunity to teach myself a variety of
-            different skills including CorelDraw, AutoDesk Fusion360, UltiMaker Cura (for 3D Printing), CNC Machining,
+            different skills including CorelDraw, AutoDesk Fusion360, UltiMaker Cura, CNC Machining,
             Plasma Cutting, and Co2 and Fiber Laser Technology. Before this I worked in construction, particularly in
             renovation, where I learned multiple different trades and was able to put those abilities into practice on
             my
             own home remodel. I have always had the desire to learn new things.
-          </h5>
-          <h5 class="text-white m-2 p-2 pb-5">
+          </h6>
+        </div>
+        <div class="col-md-10">
+          <h6 class="text-white m-2 p-2 pb-2">
             Aside from this, I enjoy being outdoors (backpacking, camping), playing drums/guitar, snowboarding, biking,
             dirtbiking, flying drones (FPV and LOS) and spending time with my amazing wife and four beautiful children.
-          </h5>
-
-          <div class="col-12 d-flex justify-content-center align-items-center pt-5">
-            <a href="#portfolio" to="/#portfolio"><button class="contact-button btn btn-light rounded-pill">Go To
-                Portfolio</button></a>
-          </div>
-
+          </h6>
         </div>
-      </div>
-    </section>
 
-    <div class="container-fluid portfolio" id="portfolio">
-      <h1 class="text-center text-black pt-5 p-2 m-2 ">My Portfolio</h1>
-      <div class="row justify-content-around pt-5">
+        <div class="col-md-10 d-flex justify-content-center align-items-center pt-2">
+          <a href="#portfolio" to="/#portfolio"><button class="contact-button btn btn-light rounded-pill">Go To
+              Portfolio</button></a>
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="row portfolio justify-content-around p-0" id="portfolio">
+        <h1 class="text-center text-black pt-5 p-2 ">My Portfolio</h1>
+
         <div class="col-md-3 card port-card p-0 rounded shadow selectable" onclick="openKeepr()">
           <img class="rounded-top img-fluid" src="./key_and_lock.jpg" alt="keeper image">
           <div class="card-info scroller">
@@ -170,38 +165,35 @@
           </div>
         </div>
 
+
+        <div class="col-11 d-flex justify-content-center align-items-center">
+          <a href="#contact" to="/#contact"><button class="contact-button btn btn-light rounded-pill">Go To
+              Contact</button></a>
+        </div>
       </div>
-      <div class="col-12 d-flex justify-content-center align-items-center">
-        <a href="#contact" to="/#contact"><button class="contact-button btn btn-light rounded-pill">Go To
-            Contact</button></a>
-      </div>
-    </div>
-
-
-    <div class="container-fluid about d-flex align-items-center mb-4" id="contact">
-      <div class="col-12 d-flex flex-column align-items-center">
-        <h1 class="text-center text-white m-2 p-2 pb-5">Contact Me</h1>
-        <h4 class="text-center text-white m-2 p-2 pb-5">Coming Soon... See me on LinkedIn!</h4>
-
-        <a href="https://www.linkedin.com/in/timothy-mccormick89/">
-          <h3 class="text-center text-blue m-2 p-2 pb-5 selectable"><i
-              class="text-center text-blue m-2 p-2 pb-5 selectable mdi mdi-linkedin f-24 li-font-size"></i></h3>
-
-        </a>
-
-        <h5 class="text-white m-2 p-2 pt-5">
-        </h5>
-        <h5 class="text-white m-2 p-2">
-
-        </h5>
-        <h5 class="text-white m-2 p-2 pb-5">
-
-        </h5>
 
 
 
+
+      <div class="row contact" id="contact">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <h1 class="text-center text-white m-2 p-2 pb-5">Contact Me</h1>
+          <h4 class="text-center text-white m-2 p-2 pb-5">Coming Soon... See me on LinkedIn!</h4>
+
+          <a href="https://www.linkedin.com/in/timothy-mccormick89/">
+            <h3 class="text-center text-blue m-2 p-2 pb-5 selectable"><i
+                class="text-center text-blue m-2 p-2 pb-5 selectable mdi mdi-linkedin f-24 li-font-size"></i></h3>
+
+          </a>
+
+
+
+
+
+        </div>
       </div>
     </div>
+
 
   </main>
   <script src="app.js"></script>
